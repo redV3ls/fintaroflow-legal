@@ -1,2 +1,1 @@
-# fintaroflow-legal
-fintaroflow-legal
+# FintaroFlow Privacy Policy
