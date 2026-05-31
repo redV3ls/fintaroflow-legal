@@ -25,7 +25,7 @@
 </head>
 <body>
   <h1>Privacy Policy for FintaroFlow</h1>
-  <p class="muted">Last updated: February 21, 2026</p>
+  <p class="muted">Last updated: May 31, 2026</p>
 
   <p>
     FintaroFlow ("the App") is a personal expense tracker. This Privacy Policy
@@ -33,12 +33,13 @@
   </p>
 
   <h2>1. Data We Process</h2>
-  <p>The App may process the data you create inside it, including:</p>
+  <p>The App may process the data you create or configure inside it, including:</p>
   <ul>
     <li>Transactions (amounts, dates, notes, categories, currencies)</li>
     <li>Recurring transaction rules</li>
     <li>Categories (names, icons, colors)</li>
-    <li>App settings (theme, period options, widget preferences, lock settings)</li>
+    <li>App settings (theme, period options, widget preferences, lock settings, sync settings)</li>
+    <li>Local app interaction state, such as whether a rating prompt has already been shown</li>
   </ul>
 
   <h2>2. Storage Model</h2>
@@ -46,18 +47,25 @@
     <li>By default, data is stored locally on your device (offline-first).</li>
     <li>No advertising SDKs are used.</li>
     <li>No analytics or tracking SDKs are used.</li>
+    <li>The App does not sell personal data.</li>
   </ul>
 
-  <h2>3. Optional Dropbox Sync</h2>
+  <h2>3. Optional Cloud Sync</h2>
   <p>
-    If you enable Dropbox sync, the App uses Dropbox OAuth authorization and uploads exported CSV app data to your Dropbox account.
-    This is optional and controlled by you. Dropbox processing is governed by Dropbox terms and privacy policy.
+    If you enable Dropbox sync or Google Drive sync, the App uses the selected provider's authorization flow
+    and uploads exported CSV app data to your cloud account. This may include transactions, notes, categories,
+    currencies, dates, and related app data that you entered.
+  </p>
+  <p>
+    Cloud sync is optional and controlled by you. Third-party processing is governed by the selected provider's
+    terms and privacy policy.
   </p>
 
   <h2>4. CSV Import and Export</h2>
   <p>
-    The App can import/export CSV files when you explicitly select files through the Android file picker.
-    Import/export may include transaction notes and category names that you entered.
+    The App can import and export CSV files when you explicitly select files through the Android file picker
+    or choose an export destination. Import and export may include transaction notes and category names that
+    you entered.
   </p>
 
   <h2>5. Biometric Lock</h2>
@@ -66,36 +74,43 @@
     Biometric templates are managed by Android and are not collected, stored, or transmitted by the App.
   </p>
 
-  <h2>6. Data Sharing</h2>
+  <h2>6. Google Play Rating</h2>
   <p>
-    We do not sell personal data. Data is shared only when you explicitly enable an external sync destination
-    or when legally required.
+    The App may show an optional prompt asking whether you want to rate FintaroFlow on Google Play.
+    The App stores only local prompt state, such as whether the prompt has already been shown.
   </p>
 
-  <h2>7. Retention and Deletion</h2>
+  <h2>7. Data Sharing</h2>
+  <p>
+    We do not sell personal data. Data is shared only when you explicitly enable an external sync destination,
+    choose to export data, or when legally required.
+  </p>
+
+  <h2>8. Retention and Deletion</h2>
   <ul>
     <li>You can edit and delete data within the App.</li>
     <li>You can clear data in-app or by uninstalling the App.</li>
     <li>Deleted items may remain temporarily in recycle-bin style features if enabled.</li>
+    <li>Data synced to Dropbox or Google Drive must be managed through the selected provider if you want to remove it from that provider.</li>
   </ul>
 
-  <h2>8. Security</h2>
+  <h2>9. Security</h2>
   <p>
-    Reasonable measures are used to protect app-managed data. No software storage or transfer method
-    can guarantee absolute security.
+    Reasonable measures are used to protect app-managed data. Data sent to Dropbox or Google Drive is transmitted
+    using the selected provider's HTTPS APIs. No software storage or transfer method can guarantee absolute security.
   </p>
 
-  <h2>9. Children's Privacy</h2>
+  <h2>10. Children's Privacy</h2>
   <p>
     The App is not directed to children under 13, and we do not knowingly collect personal data from children.
   </p>
 
-  <h2>10. Changes to This Policy</h2>
+  <h2>11. Changes to This Policy</h2>
   <p>
     This policy may be updated from time to time. Material changes are reflected by updating the date above.
   </p>
 
-  <h2>11. Contact</h2>
+  <h2>12. Contact</h2>
   <p>
     For privacy questions, contact:
     <a href="mailto:fintaroflow@protonmail.com">fintaroflow@protonmail.com</a>
